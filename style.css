@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.name {
+    text-align: center;
+    font-family: cursive;
+    font-size: 300%;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+#mybody {
+    background-color: beige;
+}
+.style {
+    color: brown;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+} 
+.style:hover {
+    background-color: burlywood;
+
+}
+.about-me {
+    margin: auto;
+    background-size: auto;
+    background-color:brown;
+    width: 350px;
+    border: 20px solid transparent;
+    border-radius: 40px;
+    padding-inline-start: 40px;
+    position: relative;
+    right: 300px;
+    top: 100px;
+}
+.img-box img{
+    border-radius: 40px;
+        width: 320px;
+        margin: auto;
+        display: block;
+        border: 10px;
+        box-shadow: 0 0 25px brown,
+            0 0 50px brown;
+        position: relative;
+        left: 300px;
+        bottom: 190px;
+}
+.my-skills {
+    font-family: cursive;
+    margin: auto;
+    background-color: brown;
+    width: 200px;
+    padding-inline-start: 20px;
+    text-align: left;
+    border: 20px solid transparent;
+    border-radius: 40px;
+    position: relative;
+    bottom: 160px;
+
+}
+.note {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}   
+.btn-box {
+    width: 200px;
+    display: flex;
+    gap: 2em;
+}  
+.btn {
+    padding: 15px;
+    background-color: brown;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    bottom: 100px;
+    left: 700px;
+    width: 100x;
+    text-align: center;
+    margin: auto;   
+} 
+.btn:hover {
+    background-color: beige !important;
+    color: brown;
+    border: 2px solid gray !important;;
+}   
+.form-box {
+    max-width: 300px;
+    background: brown !important;;
+    overflow: hidden;
+    border-radius: 16px;
+    color: #010101;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    bottom: 60px;
+}
+
+.form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 14px 24px;
+    gap: 16px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+/*Form text*/
+.title {
+    font-weight: bold;
+    font-size: 1.6rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*Inputs box*/
+.form-container {
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: beige;
+    margin: 1rem 0 .5rem;
+    width: 100%;
+    font-family: cursive;
+}
+
+.input {
+    background: none;
+    border: 0;
+    outline: 0;
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    font-size: .9rem;
+    padding: 8px 15px;
+}
+
+.form-section {
+    padding: 16px;
+    font-size: .85rem;
+    background-color: beige;
+    box-shadow: brown 0 -1px;
+}
+
+.form-section a {
+    font-weight: bold;
+    color: brown;
+    transition: color .3s ease;
+    font-family: cursive;
+}
+
+.form-section a:hover {
+    color: brown;
+    text-decoration: underline;
+}
+
+/*Button*/
+.form button {
+    background-color: beige;;
+    color: black;
+    border: 0;
+    border-radius: 84px;
+    font-family: cursive;
+    padding: 10px 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.form button:hover {
+    background-color: brown;
+}
